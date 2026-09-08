@@ -6,6 +6,7 @@
       "surveys": [
         {
           "id": "SV_demo1",
+          "homeworkNumber": "HW1",
           "label": "Day 0 Unboxing Survey",
           "due": "2026-09-15",
           "completedAliases": [
@@ -13,39 +14,52 @@
             "jsmith",
             "klee",
             "mgarcia"
+          ],
+          "giftCodeAliases": [
+            "anitbenn",
+            "jsmith"
           ]
         },
         {
           "id": "SV_demo2",
-          "label": "HW1 Weekly Check-in",
+          "homeworkNumber": "HW2",
+          "label": "Weekly Check-in #1",
           "due": "2026-09-22",
           "completedAliases": [
             "anitbenn",
             "jsmith",
             "klee"
-          ]
-        },
-        {
-          "id": "SV_demo3",
-          "label": "HW2 Weekly Check-in",
-          "due": "2026-09-29",
-          "completedAliases": [
+          ],
+          "giftCodeAliases": [
             "anitbenn"
           ]
         },
         {
+          "id": "SV_demo3",
+          "homeworkNumber": "HW3",
+          "label": "Weekly Check-in #2",
+          "due": "2026-09-29",
+          "completedAliases": [
+            "anitbenn"
+          ],
+          "giftCodeAliases": []
+        },
+        {
           "id": "SV_demo4",
+          "homeworkNumber": "HW4",
           "label": "Final CSAT Survey",
           "due": "2026-10-15",
-          "completedAliases": []
+          "completedAliases": [],
+          "giftCodeAliases": []
         }
       ]
     },
     {
-      "name": "Kittyhawk Tablet Beta",
+      "name": "Kids Tablet Beta 2026",
       "surveys": [
         {
           "id": "SV_demo5",
+          "homeworkNumber": "HW1",
           "label": "Day 0 Setup Experience",
           "due": "2026-09-10",
           "completedAliases": [
@@ -54,22 +68,84 @@
             "mgarcia",
             "klee",
             "bwilson"
-          ]
-        },
-        {
-          "id": "SV_demo6",
-          "label": "HW4 Display & Audio",
-          "due": "2026-10-01",
-          "completedAliases": [
+          ],
+          "giftCodeAliases": [
+            "anitbenn",
             "jsmith",
             "mgarcia"
           ]
         },
         {
+          "id": "SV_demo6",
+          "homeworkNumber": "HW2",
+          "label": "Display & Audio",
+          "due": "2026-09-20",
+          "completedAliases": [
+            "anitbenn",
+            "jsmith"
+          ],
+          "giftCodeAliases": [
+            "anitbenn"
+          ]
+        },
+        {
           "id": "SV_demo7",
-          "label": "HW6 Software & Content",
+          "homeworkNumber": "HW3",
+          "label": "Software & Content",
+          "due": "2026-10-01",
+          "completedAliases": [],
+          "giftCodeAliases": []
+        },
+        {
+          "id": "SV_demo8",
+          "homeworkNumber": "HW4",
+          "label": "Final Survey",
           "due": "2026-10-12",
-          "completedAliases": []
+          "completedAliases": [],
+          "giftCodeAliases": []
+        }
+      ]
+    },
+    {
+      "name": "Kids Kindle Beta",
+      "surveys": [
+        {
+          "id": "SV_demo9",
+          "homeworkNumber": "HW1",
+          "label": "Day 0 Reading Setup",
+          "due": "2026-09-12",
+          "completedAliases": [
+            "anitbenn",
+            "jsmith",
+            "klee",
+            "mgarcia",
+            "bwilson"
+          ],
+          "giftCodeAliases": [
+            "anitbenn",
+            "jsmith",
+            "klee",
+            "mgarcia",
+            "bwilson"
+          ]
+        },
+        {
+          "id": "SV_demo10",
+          "homeworkNumber": "HW2",
+          "label": "Reading Experience",
+          "due": "2026-09-25",
+          "completedAliases": [
+            "anitbenn"
+          ],
+          "giftCodeAliases": []
+        },
+        {
+          "id": "SV_demo11",
+          "homeworkNumber": "HW3",
+          "label": "Final Survey",
+          "due": "2026-10-10",
+          "completedAliases": [],
+          "giftCodeAliases": []
         }
       ]
     }
