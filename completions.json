@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-09-07T20:00:00Z",
+  "programs": [
+    {
+      "name": "Kids Echo Beta 2026",
+      "surveys": [
+        {
+          "id": "SV_demo1",
+          "label": "Day 0 Unboxing Survey",
+          "due": "2026-09-15",
+          "completedAliases": [
+            "anitbenn",
+            "jsmith",
+            "klee",
+            "mgarcia"
+          ]
+        },
+        {
+          "id": "SV_demo2",
+          "label": "HW1 Weekly Check-in",
+          "due": "2026-09-22",
+          "completedAliases": [
+            "anitbenn",
+            "jsmith",
+            "klee"
+          ]
+        },
+        {
+          "id": "SV_demo3",
+          "label": "HW2 Weekly Check-in",
+          "due": "2026-09-29",
+          "completedAliases": [
+            "anitbenn"
+          ]
+        },
+        {
+          "id": "SV_demo4",
+          "label": "Final CSAT Survey",
+          "due": "2026-10-15",
+          "completedAliases": []
+        }
+      ]
+    },
+    {
+      "name": "Kittyhawk Tablet Beta",
+      "surveys": [
+        {
+          "id": "SV_demo5",
+          "label": "Day 0 Setup Experience",
+          "due": "2026-09-10",
+          "completedAliases": [
+            "anitbenn",
+            "jsmith",
+            "mgarcia",
+            "klee",
+            "bwilson"
+          ]
+        },
+        {
+          "id": "SV_demo6",
+          "label": "HW4 Display & Audio",
+          "due": "2026-10-01",
+          "completedAliases": [
+            "jsmith",
+            "mgarcia"
+          ]
+        },
+        {
+          "id": "SV_demo7",
+          "label": "HW6 Software & Content",
+          "due": "2026-10-12",
+          "completedAliases": []
+        }
+      ]
+    }
+  ]
+}

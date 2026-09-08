@@ -1,0 +1,80 @@
+{
+  "_comment": [
+    "Beta Survey Tracker — Configuration File",
+    "==========================================",
+    "Upload this file to S3 alongside index.html.",
+    "The Lambda function reads this to know which surveys to export.",
+    "",
+    "HOW TO CUSTOMIZE:",
+    "  1. Set 'aliasQuestionId' to the Qualtrics question ID that collects",
+    "     the participant's alias (e.g., 'Q3'). Find this in Survey Builder",
+    "     by clicking the question and looking at the Question ID.",
+    "",
+    "  2. Add your programs to the 'programs' array. Each program has:",
+    "     - name: Display name shown on the dashboard",
+    "     - surveys: Array of survey objects, each with:",
+    "       - id:    Qualtrics Survey ID (starts with 'SV_')",
+    "       - label: Human-readable survey name",
+    "       - due:   Due date in YYYY-MM-DD format",
+    "",
+    "  To find your Survey ID: go to your Qualtrics survey →",
+    "  Survey → Tools → Survey ID (also in the URL).",
+    "",
+    "  ADDING A NEW PROGRAM: Copy one of the program blocks below",
+    "  and update the name/surveys. Re-upload to S3. The Lambda",
+    "  will pick it up on the next run (within 30 min).",
+    "",
+    "  REMOVING A SURVEY: Just delete it from this file and re-upload.",
+    "  The completions.json will stop including it on the next refresh."
+  ],
+
+  "aliasQuestionId": "Q3",
+
+  "programs": [
+    {
+      "name": "Kids Echo Beta 2026",
+      "surveys": [
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_1",
+          "label": "Day 0 Unboxing Survey",
+          "due": "2026-09-15"
+        },
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_2",
+          "label": "HW1 Weekly Check-in",
+          "due": "2026-09-22"
+        },
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_3",
+          "label": "HW2 Weekly Check-in",
+          "due": "2026-09-29"
+        },
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_4",
+          "label": "Final CSAT Survey",
+          "due": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "Kittyhawk Tablet Beta",
+      "surveys": [
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_5",
+          "label": "Day 0 Setup Experience",
+          "due": "2026-09-10"
+        },
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_6",
+          "label": "HW4 Display & Audio",
+          "due": "2026-10-01"
+        },
+        {
+          "id": "SV_REPLACE_WITH_REAL_ID_7",
+          "label": "HW6 Software & Content",
+          "due": "2026-10-12"
+        }
+      ]
+    }
+  ]
+}
