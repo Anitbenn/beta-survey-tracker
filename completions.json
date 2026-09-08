@@ -5,9 +5,9 @@
       "name": "Kids Echo Beta 2026",
       "surveys": [
         {
-          "id": "SV_demo1",
+          "id": "SV_d1",
           "homeworkNumber": "HW1",
-          "label": "Day 0 Unboxing Survey",
+          "label": "Day 0 Unboxing",
           "due": "2026-09-15",
           "completedAliases": [
             "anitbenn",
@@ -21,7 +21,7 @@
           ]
         },
         {
-          "id": "SV_demo2",
+          "id": "SV_d2",
           "homeworkNumber": "HW2",
           "label": "Weekly Check-in #1",
           "due": "2026-09-22",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "id": "SV_demo3",
+          "id": "SV_d3",
           "homeworkNumber": "HW3",
           "label": "Weekly Check-in #2",
           "due": "2026-09-29",
@@ -45,9 +45,9 @@
           "giftCodeAliases": []
         },
         {
-          "id": "SV_demo4",
+          "id": "SV_d4",
           "homeworkNumber": "HW4",
-          "label": "Final CSAT Survey",
+          "label": "Final CSAT",
           "due": "2026-10-15",
           "completedAliases": [],
           "giftCodeAliases": []
@@ -58,16 +58,15 @@
       "name": "Kids Tablet Beta 2026",
       "surveys": [
         {
-          "id": "SV_demo5",
+          "id": "SV_d5",
           "homeworkNumber": "HW1",
-          "label": "Day 0 Setup Experience",
+          "label": "Day 0 Setup",
           "due": "2026-09-10",
           "completedAliases": [
             "anitbenn",
             "jsmith",
             "mgarcia",
-            "klee",
-            "bwilson"
+            "klee"
           ],
           "giftCodeAliases": [
             "anitbenn",
@@ -76,7 +75,7 @@
           ]
         },
         {
-          "id": "SV_demo6",
+          "id": "SV_d6",
           "homeworkNumber": "HW2",
           "label": "Display & Audio",
           "due": "2026-09-20",
@@ -89,7 +88,7 @@
           ]
         },
         {
-          "id": "SV_demo7",
+          "id": "SV_d7",
           "homeworkNumber": "HW3",
           "label": "Software & Content",
           "due": "2026-10-01",
@@ -97,9 +96,9 @@
           "giftCodeAliases": []
         },
         {
-          "id": "SV_demo8",
+          "id": "SV_d8",
           "homeworkNumber": "HW4",
-          "label": "Final Survey",
+          "label": "Kids+ Experience",
           "due": "2026-10-12",
           "completedAliases": [],
           "giftCodeAliases": []
@@ -110,7 +109,7 @@
       "name": "Kids Kindle Beta",
       "surveys": [
         {
-          "id": "SV_demo9",
+          "id": "SV_d9",
           "homeworkNumber": "HW1",
           "label": "Day 0 Reading Setup",
           "due": "2026-09-12",
@@ -130,7 +129,7 @@
           ]
         },
         {
-          "id": "SV_demo10",
+          "id": "SV_d10",
           "homeworkNumber": "HW2",
           "label": "Reading Experience",
           "due": "2026-09-25",
@@ -140,7 +139,7 @@
           "giftCodeAliases": []
         },
         {
-          "id": "SV_demo11",
+          "id": "SV_d11",
           "homeworkNumber": "HW3",
           "label": "Final Survey",
           "due": "2026-10-10",

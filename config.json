@@ -3,8 +3,8 @@
     "Edit this file with your real programs and surveys.",
     "aliasQuestionId: The Qualtrics question that asks for the alias (usually Q2).",
     "homeworkNumber: Display name in the Homework # column (e.g., HW1, HW2).",
-    "id: Qualtrics Survey ID (SV_xxx) — find in Survey → Tools → Survey ID.",
-    "label: Description of the homework (shown on hover).",
+    "id: Qualtrics Survey ID (SV_xxx).",
+    "label: Description of the homework.",
     "due: Due date in YYYY-MM-DD format."
   ],
   "aliasQuestionId": "Q2",

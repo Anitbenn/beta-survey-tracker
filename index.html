@@ -197,6 +197,66 @@
   .gift-tag.pending  { background: var(--color-warning-bg); color: #946500; }
   .gift-tag.na       { background: #f0f0f3; color: var(--color-text-muted); }
 
+  /* ── FAQ Section ── */
+  .faq-section {
+    margin-top: 32px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+  .faq-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 16px 20px;
+    background: #f8f0ff;
+    border-bottom: 1px solid var(--color-border-light);
+    cursor: pointer; user-select: none;
+  }
+  .faq-header:hover { background: #f0e4ff; }
+  .faq-header h2 { font-size: 15px; font-weight: 700; color: var(--color-purple); flex: 1; }
+  .faq-header .chevron { color: var(--color-purple); }
+  .faq-section.open .faq-header .chevron { transform: rotate(180deg); }
+  .faq-body { display: none; }
+  .faq-section.open .faq-body { display: block; }
+
+  .faq-item {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-q {
+    font-size: 14px; font-weight: 600; color: var(--color-text);
+    margin-bottom: 6px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .faq-q i { color: var(--color-teal); font-size: 13px; }
+  .faq-a {
+    font-size: 13px; color: var(--color-text-secondary);
+    line-height: 1.6; padding-left: 22px;
+  }
+  .faq-a a {
+    color: var(--color-teal-dark); text-decoration: none; font-weight: 600;
+  }
+  .faq-a a:hover { text-decoration: underline; }
+  .faq-a code {
+    background: #f0f0f3; padding: 1px 6px; border-radius: 3px;
+    font-family: var(--font-mono); font-size: 12px;
+  }
+
+  /* ── Contact bar ── */
+  .contact-bar {
+    margin-top: 16px; padding: 14px 20px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    font-size: 13px; color: var(--color-text-secondary);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+  }
+  .contact-bar a { color: var(--color-teal-dark); font-weight: 600; text-decoration: none; }
+  .contact-bar a:hover { text-decoration: underline; }
+
   /* ── Empty state ── */
   .empty-state {
     text-align: center; padding: 64px 20px; color: var(--color-text-muted);
@@ -265,6 +325,66 @@
   <div class="empty-state" id="emptyState">
     <i class="fa-solid fa-magnifying-glass"></i>
     <p>Enter your alias above to see your<br>homework completion and gift code status.</p>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="faq-section open" id="faqSection">
+    <div class="faq-header" onclick="document.getElementById('faqSection').classList.toggle('open')">
+      <i class="fa-solid fa-circle-question" style="color:#6554C0; font-size:18px;"></i>
+      <h2>Frequently Asked Questions</h2>
+      <i class="fa-solid fa-chevron-down chevron"></i>
+    </div>
+    <div class="faq-body">
+
+      <div class="faq-item">
+        <div class="faq-q"><i class="fa-solid fa-tablet-screen-button"></i> What is my device name or serial number?</div>
+        <div class="faq-a">
+          You can look up your beta device details on the
+          <a href="https://devicetracker.amazon.com/" target="_blank">Device Tracker <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:10px;"></i></a>.
+          Log in with your alias to see your assigned devices, serial numbers, and DSNs.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><i class="fa-solid fa-box-open"></i> How do I return my beta device?</div>
+        <div class="faq-a">
+          Follow the instructions on the 
+          <a href="https://w.amazon.com/bin/view/DeviceManagement/Device_Returns/" target="_blank">Device Returns Wiki <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:10px;"></i></a>.
+          Please return your device promptly <strong>before your last day at Amazon</strong>.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><i class="fa-solid fa-clock-rotate-left"></i> I missed a homework deadline — can I still submit?</div>
+        <div class="faq-a">
+          Yes! Please complete overdue surveys as soon as possible. Late submissions are still recorded.
+          However, gift codes are typically only issued for on-time completions.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><i class="fa-solid fa-gift"></i> When will I receive my gift code?</div>
+        <div class="faq-a">
+          Gift codes are processed after each homework deadline. If your status shows "Completed" but
+          Gift Code shows "Pending," your code is being processed and will be sent within a few business days.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q"><i class="fa-solid fa-user-xmark"></i> My alias isn't showing any results</div>
+        <div class="faq-a">
+          Make sure you're entering your Amazon alias (e.g., <code>jsmith</code>), not your full name or email.
+          Use the same alias you entered in the Qualtrics surveys. If you still don't see results,
+          your data may not have been synced yet — check back in a few hours or reach out to the beta team.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Contact bar -->
+  <div class="contact-bar">
+    <i class="fa-solid fa-headset"></i> Questions? Reach the beta team at <a href="mailto:anitbenn@amazon.com">anitbenn@amazon.com</a>
   </div>
 
   <!-- Footer -->
